@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: hangman
+    name: hab1yer-hangman
     runtime: python
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 4 server:app
