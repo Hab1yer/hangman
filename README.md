@@ -1,5 +1,7 @@
 # Hangman — Word Studio
 
+Repository: https://github.com/Hab1yer/hangman
+
 Python 3.10+ is required. Install with `python -m pip install -r requirements.txt`, run `python server.py`, then open http://127.0.0.1:5000.
 
 Run tests: `python -m unittest discover -s tests -v`. Run the keyboard regression check with `node tests/test_keyboard.cjs` (Node.js is needed only for this check).
